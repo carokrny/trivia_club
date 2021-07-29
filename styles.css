@@ -65,6 +65,26 @@ header h2 a {
     color: ivory;
 }
 
+@media only screen and (max-width: 835px) {
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    header h2 {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
+}
+
 
 /* Main */
 
@@ -98,6 +118,19 @@ main {
     opacity: 0.8;
 }
 
+@media only screen and (max-width: 835px) {
+    #landing h1 {
+        font-size: 3rem;
+        width: 40rem;
+    }
+}
+    
+@media only screen and (max-width: 575px) {
+    #landing h1 {
+        font-size: 2rem;
+        width: 25rem;
+    }
+}
 
 /* About */
 
@@ -116,6 +149,16 @@ main {
     font-size: 1.25rem;
 }
 
+@media only screen and (max-width: 575px) {
+    #about h2  {
+        font-size: 1.5rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+}
+
 
 /* Gallery */
 
@@ -129,6 +172,24 @@ main {
     width: 31%;
 }
 
+@media only screen and (max-width: 575px) {
+    #gallery {
+        flex-direction: column;
+    }
+    
+    #gallery figure {
+        width: 80%;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #img3 {
+        display: none;
+    }
+}
+
 
 /* Accent text */
 
@@ -137,8 +198,14 @@ main {
     background-color:rgb(0, 0, 43);
     color: rgb(255, 102, 0);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 835px) {
+    #accent {
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -177,6 +244,16 @@ main {
     opacity: 1.0;
 }
 
+@media only screen and (max-width: 575px) {
+    #schedule {
+        flex-wrap: wrap;
+    }
+
+    .day {
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+}
 
 /* Join Us Section */
 
@@ -225,6 +302,22 @@ main {
     display: inline-block;
 }
 
+@media only screen and (max-width: 575px) {
+    #text {
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+
+    #text h2 {
+        font-size: 1.2rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+    }
+}
 
 /* Footer */
  
@@ -233,4 +326,10 @@ footer {
     height: 40px;
     font-size: 0.8rem;
     align-items: center;
+}
+
+@media only screen and (max-width: 575px) {
+    footer {
+        font-size: 0.5rem;
+    }
 }
