@@ -76,15 +76,13 @@
                 </section>
             </article>
             <article id="join" class="grid">
-                <section id="text">
+                <section id="text" class="col-flex">
                     <h2>Interested?</h2>
                     <p>Drop your contact info and we'll connect you with a team.</p>
                 </section>
-                <figure id="picture">
-                    <img src="media/friends_landscape_color.jpg">
-                </figure>
-                <section id="form">
-                    <form method="post" action="#">
+                <div id="picture"></div>
+                <section id="form" class="col-flex">
+                    <form method="post" action="#" class="col-flex">
                         <label for="name" >Name</label>
                         <input id="name" name="name" type="text" pattern="^[a-zA-Z][a-zA-Z\s]*$" required>
                         <br>
@@ -93,11 +91,19 @@
                         <small>Format: 123-456-7890</small>
                         <br>
                         <label for="locations">Which trivia night(s) do you want to attend?</label>
+                        <div class="checkbox">
+                            <input id="locations" name="locations" type="checkbox" value="Shotwells">   Shotwell's on Monday<br>
+                        </div>
+                        <div class="checkbox">
+                            <input id="locations" name="locations" type="checkbox" value="SodaPops">    Soda Popinski's on Tuesday<br>
+                        </div>
+                        <div class="checkbox">
+                            <input id="locations" name="locations" type="checkbox" value="Zekis">   Zeki's on Wednesday<br>
+                        </div>
+                        <div class="checkbox">
+                            <input id="locations" name="locations" type="checkbox" value="Jackalop">    Jackalope on Thursday<br>
+                        </div>
                         <br>
-                        <input id="locations" nasme="locations" type="checkbox" value="Shotwells">Shotwell's on Monday<br>
-                        <input id="locations" nasme="locations" type="checkbox" value="SodaPops">Soda Popinski's on Tuesday<br>
-                        <input id="locations" nasme="locations" type="checkbox" value="Zekis">Zeki's on Wednesday<br>
-                        <input id="locations" nasme="locations" type="checkbox" value="Jackalop">Jackalope on Thursday<br>
                         <input type="submit">
                     </form>
                 </section>
