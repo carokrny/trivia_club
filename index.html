@@ -27,8 +27,9 @@
                 <h2>Meep up. Team up. Have fun.</h2>
                 <p>Come join us for an evening of trivia at bars all across San Francisco. Meet new people, join a team, and play some trivia.</p>
                 <br>
-                <p>All backgrounds are welcome. Check schedule to find a trivia night near you!</p>
-                <p>Never played before? No problem. No experince necessary.</p>
+                <p>All backgrounds are welcome. Check the schedule to find a trivia night near you!</p>
+                <br>
+                <p>Never played before? No problem! No experince necessary.</p>
             </article>
             <section id="gallery" class="row-flex">
                 <figure>
@@ -40,6 +41,9 @@
                 <figure>
                     <img src="media/friends_3.jpg">
                 </figure>
+            </section>
+            <section id="accent">
+                <h1>Join a team, bring a friend, or create your own team.</h1>
             </section>
             <article id="schedule" class="row-flex">
                 <section class="day col-flex">
@@ -71,8 +75,32 @@
                     <p>8:30pm-10:00pm</p>
                 </section>
             </article>
-            <article id="join">
-
+            <article id="join" class="grid">
+                <section id="text">
+                    <h2>Interested?</h2>
+                    <p>Drop your contact info and we'll connect you with a team.</p>
+                </section>
+                <figure id="picture">
+                    <img src="media/friends_landscape_color.jpg">
+                </figure>
+                <section id="form">
+                    <form method="post" action="#">
+                        <label for="name" >Name</label>
+                        <input id="name" name="name" type="text" pattern="^[a-zA-Z][a-zA-Z\s]*$" required>
+                        <br>
+                        <label for="phone">Phone number</label>
+                        <input id="phone" name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        <small>Format: 123-456-7890</small>
+                        <br>
+                        <label for="locations">Which trivia night(s) do you want to attend?</label>
+                        <br>
+                        <input id="locations" nasme="locations" type="checkbox" value="Shotwells">Shotwell's on Monday<br>
+                        <input id="locations" nasme="locations" type="checkbox" value="SodaPops">Soda Popinski's on Tuesday<br>
+                        <input id="locations" nasme="locations" type="checkbox" value="Zekis">Zeki's on Wednesday<br>
+                        <input id="locations" nasme="locations" type="checkbox" value="Jackalop">Jackalope on Thursday<br>
+                        <input type="submit">
+                    </form>
+                </section>
             </article>
         </main>
         <footer>
