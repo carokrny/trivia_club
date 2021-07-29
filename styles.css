@@ -20,6 +20,10 @@ img {
     max-height: 100%;
   }
 
+  h1, h2 {
+    font-family: 'Lora', serif;
+  }
+
 /* Header */
 
 .row-flex {
@@ -40,7 +44,6 @@ header h1 {
     float: right;
     padding: 3rem;
     color: #c73a2e;
-    font-family: 'Lora', serif;
 }
 
 nav {
@@ -90,7 +93,6 @@ main {
 }
 
 #landing h1 {
-    font-family: 'Lora', serif;
     font-size: 4rem;
     text-align: center;
     width: 50rem;
@@ -107,7 +109,6 @@ main {
 
 #about h2 {
     color:rgb(255, 102, 0);
-    font-family: 'Lora', serif;
     font-weight: 600;
     font-size: 2rem;
     padding-bottom: 2rem;
@@ -122,10 +123,47 @@ main {
 
 #gallery {
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 20px;
     background-color:rgb(0, 0, 43);
 }
 
 #gallery figure {
     width: 31%;
+}
+
+
+/* Schedule */
+
+#schedule {
+    justify-content: space-evenly;
+    padding: 20px;
+    background-image: url("media/trivia_sign.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.day {
+    padding-bottom: 20px;
+    height: 250px;
+    text-align: center;
+    width: 20%;
+    background-color: grey;
+    opacity: 0.8;
+    justify-content: space-evenly;
+}
+
+.day h2 {
+    text-decoration: underline;
+    text-decoration-style: double;
+    line-height: 1.4;
+}
+
+.day a {
+    text-decoration: none;
+    color: rgb(255, 102, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 1.0;
 }
