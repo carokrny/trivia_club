@@ -136,7 +136,7 @@ main {
 
 #schedule {
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 5rem 0;
     background-image: url("media/trivia_sign.jpg");
     background-position: center;
     background-size: cover;
@@ -145,12 +145,11 @@ main {
 }
 
 .day {
-    padding-bottom: 20px;
-    height: 250px;
+    padding-bottom: 1.5rem;
+    height: 16rem;
     text-align: center;
     width: 20%;
-    background-color: grey;
-    opacity: 0.8;
+    background-color: rgba(128, 128, 128, 0.7);
     justify-content: space-evenly;
 }
 
