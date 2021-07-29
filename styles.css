@@ -1,0 +1,55 @@
+/* General */
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(33, 56, 90);
+    color: ivory;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 1, 77);
+}
+
+header h1 {
+    float: right;
+    padding: 3rem;
+    color: rgb(255, 136, 0);
+    font-family: 'Lora', serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header h2 {
+    padding-left: 2rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 a {
+    color: rgb(255, 136, 0);
+}
+
+header h2 a {
+    color: ivory;
+}
