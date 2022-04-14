@@ -1,5 +1,7 @@
 # Trivia Club
 
+[![Screenshot of Trivia Club website landing page](./screenshot.png)](http://carokrny.github.io/trivia_club)
+
 ## Table of contents
 * [General information](#general-information)
 * [Technologies](#technologies)
@@ -8,7 +10,15 @@
 * [Inspiration](#inspiration)
 
 ## General information
-Web development exercise for a faux San Francisco Trivia Club. This project was an exercise in developing skills for pairing HTML structure with CSS styling, in particular: semantic HTML, HTML forms with client-side verification, flexbox display, background images, fixed position elements, Google fonts, rem units, and media queries for responsive display. 
+Web development exercise for a faux San Francisco Trivia Club. This project was an exercise in developing skills for pairing HTML structure with CSS styling, in particular: 
+ - semantic HTML
+ - HTML forms with client-side verification
+ - flexbox display
+ - background images
+ - fixed position elements
+ - Google fonts
+ - rem units
+ - media queries for responsive display. 
 
 ## Technologies
 Project is created with:
@@ -16,7 +26,7 @@ Project is created with:
 * Git version 2.30.1
 	
 ## Setup
-This project can be viewed at http://carokrny.github.io/trivia_club. Click through to check it out!
+This project can be viewed [here](http://carokrny.github.io/trivia_club). Click through to check it out!
 
 ## Future work 
 As I learn backend development, the HTML form will be updated to have backend functionality. 
